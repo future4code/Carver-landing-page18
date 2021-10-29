@@ -1,297 +1,287 @@
 
 *{
-    margin: 0;
-    padding: 0;
- }
- 
- body{
-     background-color: #dae5e8;
-     
- 
- }
- 
- 
- header {
-     background-color: #9400d3;
-     width: 99vw;
- }
- 
- #menu{
-     display: flex;
-     justify-content: flex-end;
-     padding: 30px;
-     font-size: 28px;  
- }
- 
- a:active{
-     color: black;
- }
- 
- .btn{
-     color:white;
-     background: transparent;
-     padding: 10px 20px;
-     text-decoration: none;
-     text-transform: uppercase;
- }
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   background-color: #dae5e8;
+   
+
+}
+
+
+header {
+   background-color: #9400d3;
+   width: 99vw;
+}
+
+#menu{
+   display: flex;
+   justify-content: flex-end;
+   padding: 30px;
+   font-size: 28px;  
+}
+
+a:active{
+   color: black;
+}
+
+.btn{
+   color:white;
+   background: transparent;
+   padding: 10px 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+font-family: 'Montserrat', Arial, sans-serif;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: #9400d3;
+background: #9400d3;
 }
 
 button {
-  overflow: visible;
+overflow: visible;
 }
 
 button, select {
-  text-transform: none;
+text-transform: none;
 }
 
 button, input, select, textarea {
-  color: #f3f0f0;
-  font: inherit;
-  margin: 0;
+color: #f3f0f0;
+font: inherit;
+margin: 0;
 }
 
 input {
-  line-height: normal;
+line-height: normal;
 }
 
 textarea {
-  overflow: auto;
+overflow: auto;
 }
 
 #container {
-  border: solid 3px #f1ece9;
-  max-width: 768px;
-  margin: 60px auto;
-  position: relative;
+border: solid 3px #f1ece9;
+max-width: 768px;
+margin: 60px auto;
+position: relative;
 }
 
 form {
-  padding: 37.5px;
-  margin: 50px 0;
+padding: 37.5px;
+margin: 50px 0;
 }
-#logo-marca{
-  margin-top: 0cm;
-}
+
 h1 {
-  color: #ffffff;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 7px;
-  text-align: center;
-  text-transform: uppercase;
-padding: 3cm;
-
-
->
+color: #ffffff;
+font-size: 32px;
+font-weight: 700;
+letter-spacing: 7px;
+text-align: center;
+text-transform: uppercase;
 }
 
 .underline {
-  border-bottom: solid 2px #f5f2f1;
-  margin: -0.512em auto;
-  width: 80px;
+border-bottom: solid 2px #f5f2f1;
+margin: -0.512em auto;
+width: 80px;
 }
 
 .icon_wrapper {
-  margin: 50px auto 0;
-  width: 100%;
+margin: 50px auto 0;
+width: 100%;
 }
 
-
-img{
-
-  display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
 .icon {
-  display: block;
-  fill: #fcfcfc;
-  height: 50px;
-  margin: 0 auto;
-  width: 50px;
+display: block;
+fill: #fcfcfc;
+height: 50px;
+margin: 0 auto;
+width: 50px;
 }
 
 .email {
-	float: right;
-	width: 45%;
+float: right;
+width: 45%;
 }
 
 input[type='text'], [type='email'], select, textarea {
-	background: none;
-  border: none;
-	border-bottom: solid 2px #f1ece9;
-	color: #fdfdfd;
-	font-size: 1.000em;
-  font-weight: 400;
-  letter-spacing: 1px;
-	margin: 0em 0 1.875em 0;
-	padding: 0 0 0.875em 0;
-  text-transform: uppercase;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+background: none;
+border: none;
+border-bottom: solid 2px #f1ece9;
+color: #fdfdfd;
+font-size: 1.000em;
+font-weight: 400;
+letter-spacing: 1px;
+margin: 0em 0 1.875em 0;
+padding: 0 0 0.875em 0;
+text-transform: uppercase;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-ms-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
 }
 
 input[type='text']:focus, [type='email']:focus, textarea:focus {
-	outline: none;
-	padding: 0 0 0.875em 0;
+outline: none;
+padding: 0 0 0.875em 0;
 }
 
 .message {
-	float: none;
+float: none;
 }
 
 .name {
-	float: left;
-	width: 45%;
+float: left;
+width: 45%;
 }
 
 select {
-  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
-  outline: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
+background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+outline: none;
+-moz-appearance: none;
+-webkit-appearance: none;
 }
 
 select::-ms-expand {
-  display: none;
+display: none;
 }
 
 .subject {
-  width: 100%;
+width: 100%;
 }
 
 .telephone {
-  width: 100%;
+width: 100%;
 }
-
+h1{
+  padding: 3cm;
+}
 textarea {
-	line-height: 150%;
-	height: 150px;
-	resize: none;
-  width: 100%;
+line-height: 150%;
+height: 150px;
+resize: none;
+width: 100%;
 }
 
 ::-webkit-input-placeholder {
-	color: #f1ece9;
+color: #f1ece9;
 }
 
 :-moz-placeholder { 
-	color: #f1ece9;
-	opacity: 1;
+color: #f1ece9;
+opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: #f1ece9;
-	opacity: 1;
+color: #f1ece9;
+opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: #f1ece9;
+color: #f1ece9;
 }
 
 #form_button {
-  background: none;
-  border: solid 2px #f8f6f5;
-  color: #f1ece9;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
-  font-size: 0.875em;
-  font-weight: bold;
-  outline: none;
-  padding: 20px 35px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+background: none;
+border: solid 2px #f8f6f5;
+color: #f1ece9;
+cursor: pointer;
+display: inline-block;
+font-family: 'Helvetica', Arial, sans-serif;
+font-size: 0.875em;
+font-weight: bold;
+outline: none;
+padding: 20px 35px;
+text-transform: uppercase;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+-ms-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
 }
 
 #form_button:hover {
-  background: #f1ece9;
-  color: #F2F3EB;
+background: #f1ece9;
+color: #F2F3EB;
 }
 
 @media screen and (max-width: 768px) {
-  #container {
-    margin: 20px auto;
-    width: 95%;
-  }
+#container {
+  margin: 20px auto;
+  width: 95%;
+}
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
-    font-size: 26px;
-  }
-  
-  .underline {
-    width: 68px;
-  }
-  
-  #form_button {
-    padding: 15px 25px;
-  }
+h1 {
+  font-size: 26px;
+}
+
+.underline {
+  width: 68px;
+}
+
+#form_button {
+  padding: 15px 25px;
+}
 }
 
 @media screen and (max-width: 420px) {
-  h1 {
-    font-size: 18px;
-  }
-  
-  .icon {
-    height: 35px;
-    width: 35px;
-  }
-  
-  .underline {
-    width: 53px;
-  }
-  
-  input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
-  }
+h1 {
+  font-size: 18px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.underline {
+  width: 53px;
+}
+
+input[type='text'], [type='email'], select, textarea {
+  font-size: 0.875em;
+}
 }
 
 .card-item__bg{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    position: relative;
-    margin: 30px auto;
-    transform: translate(0px, 50px);
-    z-index: 5;}
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+  transform: translate(0px, 50px);
+  z-index: 5;}
 
-<<<<<<< HEAD
+
+
     .entry-social {margin-bottom: 20px;color: rgb(126, 126, 126);display: block;font-family: 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;font-size: 14px;font-weight: normal;height: auto;line-height:23.799999237060547px;margin-bottom: 20px;width: 100%;
       width: 100%;float:left;border: solid 0px #aaa;text-align: center;}
       
       .entry-social div {display: block;width:138px;margin:2px;display: inline-block;  
-          vertical-align: middle;}
+          }
       
       .entry-social a {text-decoration:none;display: block;padding-left: 20px;color: #FFFFFF !important;font-weight: bold;transition:background-color .3s;    }
       
@@ -313,37 +303,3 @@ textarea {
       .entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}
       .entry-social .pinterest a:hover {background-color: rgb(174, 28, 35);}
       .entry-social .delicious a:hover {background-color: rgb(38, 90, 168);}
-=======
-
-
-    
-
-
-
-.entry-social {margin-bottom: 20px;color: rgb(126, 126, 126);display: block;font-family: 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;font-size: 14px;font-weight: normal;height: auto;line-height:23.799999237060547px;margin-bottom: 20px;width: 100%;
-width: 100%;float:left;border: solid 0px #aaa;text-align: center;}
-
-.entry-social div {display: block;width:138px;margin:2px;display: inline-block;  
-    vertical-align: middle;}
-
-.entry-social a {text-decoration:none;display: block;padding-left: 20px;color: #FFFFFF !important;font-weight: bold;transition:background-color .3s;    }
-
-.entry-social .fb a {padding: 7px 10px 7px 26px;background: #3B5999 url('https://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;}
-
-.entry-social .twitter a {padding: 7px 10px 7px 32px;background: #01BBF6 url('https://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/twitter14.png') no-repeat 8px center;}
-
-.entry-social .gplus a {padding: 7px 10px 7px 32px;background: #D54135 url('https://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png') no-repeat 10px center;}
-
-.entry-social .linkedin a {padding: 7px 10px 7px 32px;background: #136F9B url('https://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png') no-repeat 10px center;}
-
-.entry-social .pinterest a {padding: 7px 10px 7px 32px;background: #CB2027 url('https://1.bp.blogspot.com/-v-ZkEQhYpug/UeDl6uIio-I/AAAAAAAAAsA/9rqq2cXT08k/s320/pinterest14.png') no-repeat 10px center;}
-
-.entry-social .delicious a {padding: 7px 10px 7px 32px;background: #3173D1 url('https://2.bp.blogspot.com/-J9p31gkQfXw/UeDmILHMQwI/AAAAAAAAAsI/bEws_iRNx7g/s320/delicious14.png') no-repeat 10px center;}
-
-.entry-social .fb a:hover {background-color: rgb(50, 75, 129);}
-.entry-social .twitter a:hover {background-color: rgb(1, 159, 211);}
-.entry-social .gplus a:hover {background-color: rgb(191, 52, 40);}
-.entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}
-.entry-social .pinterest a:hover {background-color: rgb(174, 28, 35);}
-.entry-social .delicious a:hover {background-color: rgb(38, 90, 168);}
->>>>>>> master
