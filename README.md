@@ -8,8 +8,8 @@ O que funciona
 - Campos para digitar e botões
 
 O que não funciona
--Expandir imagens para visualizar 
--Envio de formulário
+- Expandir imagens para visualizar 
+- Envio de formulário
 
 Contato/ footer/ variados - Victor
 Produtos- Renan
