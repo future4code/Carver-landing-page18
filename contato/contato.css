@@ -91,7 +91,11 @@ h1 {
   letter-spacing: 7px;
   text-align: center;
   text-transform: uppercase;
+<<<<<<< HEAD
 padding: 3cm;
+=======
+padding: 2cm; 
+>>>>>>> b887c553b404336d5f377d819b173d7fd71dc948
 }
 
 .underline {
