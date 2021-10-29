@@ -1,85 +1,85 @@
 *{
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body{
-    background-color: #dae5e8;
-    
+   background-color: #dae5e8;
+
 
 }
 
 
 header {
-    background-color: #9400d3;
-    width: 99vw;
+   background-color: #9400d3;
+   width: 99vw;
 }
 
 #menu{
-    display: flex;
-    justify-content: flex-end;
-    padding: 30px;
-    font-size: 28px;  
+   display: flex;
+   justify-content: flex-end;
+   padding: 30px;
+   font-size: 28px;  
 }
 
 a:active{
-    color: black;
+   color: black;
 }
 
 .btn{
-    color:white;
-    background: transparent;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-transform: uppercase;
+   color:white;
+   background: transparent;
+   padding: 10px 20px;
+   text-decoration: none;
+   text-transform: uppercase;
 }
 
 #logo-marca{
-    display: flex;
-    justify-content: center;
-    
+   display: flex;
+   justify-content: center;
+
 }
 .logo{
-    width: 250px;
-    padding-top: 20px;
+   width: 250px;
+   padding-top: 20px;
 }
 
 .baner-home{
-    width: 99vw;
-    padding-top: 10px;
+   width: 99vw;
+   padding-top: 10px;
 }
 
 footer{
-    background-color: #9400d3;
-    width: 99vw;
-    height: 25vh;
-    margin-top: 800px;
+   background-color: #9400d3;
+   width: 99vw;
+   height: 25vh;
+   margin-top: 800px;
 
-    
+
 }
 
 h2{
-    display:flex;
-    color: white;
-    justify-content: flex-start;
-    padding-top: 50px;
-    padding-left: 9.9%;
+   display:flex;
+   color: white;
+   justify-content: flex-start;
+   padding-top: 50px;
+   padding-left: 9.9%;
 }
 
 section{
-    display: inline-block
+   display: inline-block
 }
 #whatsapp{
-    width: 80px;
-    height: 80px;
+   width: 80px;
+   height: 80px;
 }
 
 #facebook{
-    width: 80px;
-    height: 80px;
+   width: 80px;
+   height: 80px;
 }
 
 #instagram{
-    width: 80px;
-    height: 80px;
-}
+   width: 80px;
+   height: 80px;
+} 
