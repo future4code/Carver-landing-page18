@@ -6,17 +6,19 @@ Nome do projeto
 O que funciona
 - Menu de navegação
 - Campos para digitar e botões
+- Página contatos está responsiva.
 
 O que não funciona
 - Expandir imagens para visualizar 
 - Envio de formulário
+- Páginas home e produtos, não responsivos. 
 
-Contato/ footer/ variados - Victor
-Produtos- Renan
-Home / variados/  header  - Thayna
+Contato/ header/footer/ variados - Victor
+Produtos/header/footer - Renan
+Home / variados/  header/footer  - Thayna
    
    
    
    LINK SURGE 
    
-   https://old-fashioned-silver.surge.sh/
+  spiteful-form.surge.sh
