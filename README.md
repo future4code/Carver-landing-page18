@@ -10,7 +10,6 @@ O que funciona
 
 O que não funciona
 - Expandir imagens para visualizar 
-- Envio de formulário
 - Páginas home e produtos, não responsivos. 
 
 Contato/ header/footer/ variados - Victor
