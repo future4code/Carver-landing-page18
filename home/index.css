@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+     background-color: #dae5e8;
+ }
+ 
+ 
+ header {
+     background-color: #9400d3;
+     width: 100vw;
+ }
+ 
+ #menu{
+     display: flex;
+     justify-content: flex-end;
+     padding: 30px;
+     font-size: 28px;  
+ }
+ 
+ a:active{
+     color: black;
+ }
+ 
+ .btn{
+     color:white;
+     background: transparent;
+     padding: 10px 20px;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
+ 
+ 
+ #logo-marca{
+     display: flex;
+     justify-content: center;
+     
+ }
+ 
+ .logo{
+     width: 450px;
+     padding-top: 20px;
+ }
+ 
+ 
+ .baner-home{
+     width: 100vw;
+     padding-top: 10px;
+ }
+ 
+ 
+ .sobre{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content: center;
+     padding-top:200px;  
+ 
+     
+ }
+ 
+ 
+ 
+ #titulo-sobre{
+     text-align: center;
+     font-size: 80px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-bottom: 95px;
+ }
+ 
+ h3{
+     text-align: center;
+     font-size: 45px;
+     
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .texto-sobre{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-content: center;
+ }
+ 
+ 
+ .icone{
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     justify-items: center;
+     
+     
+ }
+ 
+ #imagem-sobre{
+     width: 300px;
+     padding-top: 40px;
+     
+ }
+ 
+ 
+ #imagem-tec{
+     width: 400px;
+     
+ }
+ 
+ 
+ 
+ footer{
+     display: grid;
+     grid-template-columns: 3 1fr;
+     background-color: #9400d3;
+     width: 100vw;
+     height: 4vw;
+     margin-top: 300px;
+     /* position: absolute; */
+     
+ }
+ .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;}
+
+    .entry-social {margin-bottom: 20px;color: rgb(126, 126, 126);display: block;font-family: 'Open Sans',Tahoma, Verdana, Arial, sans-serif, Faruma, Faseyha;font-size: 14px;font-weight: normal;height: auto;line-height:23.799999237060547px;margin-bottom: 20px;width: 100%;
+      width: 100%;float:left;border: solid 0px #aaa;text-align: center;}
+      
+      .entry-social div {display: block;width:138px;margin:2px;display: inline-block;  
+          vertical-align: middle;}
+      
+      .entry-social a {text-decoration:none;display: block;padding-left: 20px;color: #FFFFFF !important;font-weight: bold;transition:background-color .3s;    }
+      
+      .entry-social .fb a {padding: 7px 10px 7px 26px;background: #3B5999 url('https://3.bp.blogspot.com/-yqD2363XuAo/UeDk98twSlI/AAAAAAAAArg/kXIzFBWmczM/s1600/fb14.png') no-repeat 10px center;}
+      
+      .entry-social .twitter a {padding: 7px 10px 7px 32px;background: #01BBF6 url('https://3.bp.blogspot.com/-0u8P4VQmEeU/UeDlVdilwcI/AAAAAAAAAro/lGTnlvHGyVw/s1600/twitter14.png') no-repeat 8px center;}
+      
+      .entry-social .gplus a {padding: 7px 10px 7px 32px;background: #D54135 url('https://3.bp.blogspot.com/-A8fFRexz_zk/UeDlgadvpiI/AAAAAAAAArw/TRd7NWNwo9s/s1600/gplus14.png') no-repeat 10px center;}
+      
+      .entry-social .linkedin a {padding: 7px 10px 7px 32px;background: #136F9B url('https://4.bp.blogspot.com/-yuEMxhpIXPc/UeDltjBGR1I/AAAAAAAAAr4/kgidavlGbY8/s1600/linkedin14.png') no-repeat 10px center;}
+      
+      .entry-social .pinterest a {padding: 7px 10px 7px 32px;background: #CB2027 url('https://1.bp.blogspot.com/-v-ZkEQhYpug/UeDl6uIio-I/AAAAAAAAAsA/9rqq2cXT08k/s320/pinterest14.png') no-repeat 10px center;}
+      
+      .entry-social .delicious a {padding: 7px 10px 7px 32px;background: #3173D1 url('https://2.bp.blogspot.com/-J9p31gkQfXw/UeDmILHMQwI/AAAAAAAAAsI/bEws_iRNx7g/s320/delicious14.png') no-repeat 10px center;}
+      
+      .entry-social .fb a:hover {background-color: rgb(50, 75, 129);}
+      .entry-social .twitter a:hover {background-color: rgb(1, 159, 211);}
+      .entry-social .gplus a:hover {background-color: rgb(191, 52, 40);}
+      .entry-social .linkedin a:hover {background-color: rgb(15, 89, 125);}
+      .entry-social .pinterest a:hover {background-color: rgb(174, 28, 35);}
+      .entry-social .delicious a:hover {background-color: rgb(38, 90, 168);}
